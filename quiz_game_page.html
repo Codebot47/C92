@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Math Quiz Game!</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="quiz_game.css">
+
+</head>
+
+<body style="background-color: rgb(128, 189, 241);">
+
+    <h4 id="player1_name"></h4> <span id="player1_score"></span>
+
+    <br>
+
+    <h4 id="player2_name"></h4> <span id="player2_score"></span>
+
+    <div class="container">
+        <center>
+            <h2 style="color: white;">The Math Quiz Game!</h2>
+
+            <h3 id = "player_question" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; border-color: yellow; border-width: thick; border-style: groove; width: fit-content; padding: 20px;"></h3>
+
+            <h3 id = "player_answer" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; border-color: yellow; border-width: thick; border-style: groove; width: fit-content; padding: 20px;"></h3>
+        </center>
+    </div>
+
+    <br>
+
+    <center>
+
+    <div style="background-color: rgb(128, 189, 241);" id="output">
+
+        <center>
+
+        </center>
+
+    </div>
+
+
+    <h3 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; border-color: yellow;">Number 1</h3>
+
+    <input class="text" id="number1" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; border-color: yellow; border-width: thick; border-style: groove; width: fit-content; padding: 20px; text-align: center;" placeholder="Number 1">
+
+    <h3 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; border-color: yellow;">Number 2</h3>
+
+    <input class="text" id="number2" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; border-color: yellow; border-width: thick; border-style: groove; width: fit-content; padding: 20px; text-align: center;" placeholder="Number 2">
+
+    <br>
+    <br>
+
+    <button onclick="send()" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; border-color: yellow; border-width: thick; border-style: groove; width: fit-content; padding: 20px;">Send</button>
+
+    </center>
+
+    <script src="quiz_game_page.js"></script>
+
+
+</body>
+</html>
